@@ -1,1 +1,3 @@
-https://hub.labs.coursera.org:443/connect/sharedklfrkaox?forceRefresh=false&path=%2F 
+# Cyber Splash
+
+A group ptoject between 4 people. This is just a statick website where we got to grips with HTML, CSS and JS. 
