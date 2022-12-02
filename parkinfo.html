@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang = "en">
+        <title>Cybersplash</title>
+        <!-- meta objects added to improve accessability, veiwport added for responsiv design and charset set -->
+        <meta name="description" content="The website of Cybersplash, a cyberpunk themed waterpark!">
+        <meta name="author" content="Wai Lee, Janko Bauer, Johannes Van Rhyn, Tassha Pradigdo, Chirley Campos Rios">
+        <meta name="keywords" content="waterpark, cyberpunk, waterslides, watercoaster, wavepool, slides, raft, tube, activity, pool, relax, vacation, splash">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <meta charset="UTF-8">
+        <!-- Add external stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <!-- Favicon added -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <!-- link fontawesome to add social media icons -->
+        <script src="https://kit.fontawesome.com/8981bb8382.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header id="banner-container">
+            <!-- park logo -->
+            <div id="logobox">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/CyberSplashLogo200x100.webp" alt="Logo for Cybersplash" id="logo">
+                    </a>
+                </h1>
+            </div>
+            <!-- navbar with menu items that link to the other pages on the site-->
+            <nav id="menuitems">
+                <a href="index.html" class="menuitem">Home</a>
+                <a href="parkattractions.html" class="menuitem">Attractions</a>
+                <a href="parkinfo.html" class="menuitem">Information</a>
+                <!-- Searchbox -->
+                <form>
+                    <input id="searchbox" type="text" placeholder="Search...">
+                </form>
+            </nav>    
+        </header>
+
+        <!-- The Introduction image slide show  -->
+        <figure class="topvidcontainer">
+            <div class="parkinfo-image-slider">
+            </div>
+        </figure>
+
+        <main> 
+            <!--The following sections contains 5 information boxes, booking and contact details.
+                Similar information is grouped in a box with:
+                    - Constant formatting 
+                    - A image as a background for every section -->
+            <h1 id="parkInfoHead">Park Information</h1>
+            <!-- Main section for box formatting -->
+            <div class="info-grid">
+                <!-- Operation hours div -->
+                <article class="info-collection-area" id="info1" > 
+                    <h3>Open Hours & schedule</h3>
+                    <table id="timeTable">
+                        <tr><td> </td><th>Park</th><th>Restaurant and Lodge</th></tr>
+                        <tr><th>Monday</th><td><time>09:00</time> - <time>20:00</time></td><td><time>09:00</time> - <time>20:00</time></td></tr>
+                        <tr><th>Tuesday</th><td><time>09:00</time> - <time>20:00</time></td><td><time>09:00</time> - <time>20:00</time></td></tr>
+                        <tr><th>Wednesday</th><td><time>09:00</time> - <time>20:00</time></td><td><time>09:00</time> - <time>20:00</time></td></tr>
+                        <tr><th>Thursday</th><td><time>09:00</time> - <time>20:00</time></td><td><time>09:00</time> - <time>20:00</time></td></tr>
+                        <tr><th>Friday</th><td><time>09:00</time> - <time>20:00</time></td><td><time>09:00</time> - <time>20:00</time></td></tr>
+                        <tr><th>Saturday</th><td><time>09:00</time> - <time>22:00</time></td><td><time>09:00</time> - <time>22:00</time></td></tr>
+                        <tr><th>Sunday</th><td><time>09:00</time> - <time>22:00</time></td><td><time>09:00</time> - <time>22:00</time></td></tr>
+                    </table>
+                </article>
+                <!-- Health and safety info. Also Covid preventions. -->
+                <article class="info-collection-area" id="info2"> 
+                    <h3>Safety protocols</h3>
+                    <p>CyberSplash has made every effort to comply with new safety regulations to combat the Corona Virus
+                        crisis. We adhere to all safety regulations passed by the relevant health authorities. In doing so, we have 
+                        established new and effective protocols to keep everyone safe whilst having a good time. </p>
+                </article>
+                <!-- Information for people with hampered mobility. -->
+                <article class="info-collection-area" id="info3"> 
+                    <h3>Accessibility</h3>
+                    <p>Everyone should have the opportunity to experience the thrill of our world-class rides. To ensure this, we have 
+                        modified rafts and ride seats to accommodate those who are wheelchair-bound. Accessibility was our number-one 
+                        priority when designing our park layout. All rides and amenities are accessible via ramps or elevators. Feel free 
+                        to approach our friendly members of staff for assistance. </p>            
+                </article>
+                <!-- Article for safety of the park -->
+                <article class="info-collection-area" id="info4"> 
+                    <h3>Guest Safety</h3>
+                    <p>We are a Park that values your safety. Our mission is for you to enjoy every ride, every slide and all we 
+                        have to offer. To ensure this our members of staff have undergone rigorous training. The pool water undergoes 
+                        a meticulous cleaning procedure using cutting edge sanitization technologies. All rides are built with PCSA (Park 
+                        Construction Security Authority) materials and passed all tests with flying colours.</p>
+                    <p>So you have nothing to worry about.</p>
+                </article>
+                <!-- Quick Policy guide -->
+                <article class="info-collection-area" id="info5">  
+                    <h3>Park Policy</h3>
+                    <p>To ensure that all guests have the time of their lives, we have enacted a few rules and regulations. They serve all guests and staff.</p>
+                    <p>We ask all visitors and staff to adhere to the following:</p> 
+                    <ul>
+                        <li>No dangerous or irrational behaviour when on a ride or visiting the premises. Accidents happen faster than anyone can anticipate.</li> 
+                        <li>Please refrain from the use of any rides if feeling sick or unwell. Protect yourselves and each other from infection. </li>
+                    </ul>        
+                </article>
+                <!-- This article covers restaurants and accommodations. -->
+                <article class="info-collection-area" id="info6"> 
+                    <h3>Accommodation</h3>
+                    <p>After a long fun-filled day you can relax and refresh at one of our many restaurants. We have an exceptional 
+                        collection. From our fast and easy snack bar to our premium 4-star restaurant, whatever your heart, or stomach, 
+                        desires we will strive to achieve. After feasting, we invite you to retire to one of our spacious en-suite hotel 
+                        rooms. All accommodation is maintained to the highest of standards; we will do everything we can to help you 
+                        enjoy your stay. </p>            
+                </article>
+            </div>
+
+            <hr>
+
+            <!-- Park map with link areas-->
+            <figure id="map-figure">
+                <!-- PLEASE NOTE: the coordinates are acurate for a 1366px wide and 768px hing screen. Otherwise the coordinates will move! -->
+                <img src="images/park-location.webp" alt="Image of the park location with links to atractions" 
+                    usemap="#park-map" id = "park-map" title="Link areas are acurate at screen size: 1366px by 768px">
+                <map name="park-map">
+                    <area class="map-areas" shape="circle" coords="523,230,20" alt="Hotels location" href="#parkInfoHead">
+                    <area class="map-areas" shape="circle" coords="625,200,20" alt="Restaurants location" href="#parkInfoHead">
+                    <area class="map-areas" shape="circle" coords="705,234,20" alt="Main waterpark location" href="parkattractions.html">
+                </map>
+            </figure>
+
+            <hr> 
+
+            <!--Ticket booking: 
+                - contains two groups: First for ride and stay details, Second for personal details
+                - has two container sections for responsive layout of the content -->
+            <section id="ticket-booking">
+                <h2>Book your tickets</h2>
+                <form>
+                    <!-- First form grouping, this is for the ride selection and stay duration -->
+                    <fieldset>
+                        <legend>Ride selection:</legend>
+                        <p>Pick all the rides you wish to enjoy</p>
+                        <!-- Section for the rides checkbox layout -->
+                        <div class="form-rides">
+                            <div class="row1">
+                                <label for="ride1">Orbital splash</label><br>
+                                <input type="checkbox" id="ride1" name="ride1" value="ride1">
+                            </div>
+                            <div class="row1">
+                                <label for="ride2">Crypto Surf</label><br>
+                                <input type="checkbox" id="ride2" name="ride2" value="ride2">
+                            </div>
+                            <div class="row1">
+                                <label for="ride3">Binary Tunnels</label><br>
+                                <input type="checkbox" id="ride3" name="ride3" value="ride3">
+                            </div>
+                            <div class="row1">
+                                <label for="ride4">The Wetrunner</label><br>
+                                <input type="checkbox" id="ride4" name="ride4" value="ride4">
+                            </div>
+                            <div class="row1">
+                                <label for="ride5">Lazy Eddies</label><br>
+                                <input type="checkbox" id="ride5" name="ride5" value="ride5">
+                            </div>                      
+                        </div>
+                        <label for="date-min">Enter the arrival date:</label>
+                        <input type="date" id="date-min" name="date-min" min="2022-05-30" required><br>
+                        <label for="date-leave">Enter the departure date:</label>
+                        <input type="date" id="date-leave" name="date-leave" required><br>
+                        <label for="adults">Number of adults:</label>
+                        <input type="number" id="adults" name="adults" min="0" max="100" required><br>
+                        <label for="children">Number of children:</label>
+                        <input type="number" id="children" name="children" min="0" max="100" required>
+                    </fieldset><br>
+                    <!-- Second form grouping, this is for the persional info -->
+                    <fieldset>
+                        <legend>Booking details:</legend>
+                        <div>
+                            <div>
+                                <label for="f-name">First name:</label> 
+                                <input type="text" id="f-name" name="f-name" required>
+                            </div>   
+                            <div>
+                                <label for="l-name">Last name:</label>
+                                <input type="text" id="l-name" name="l-name" required>
+                            </div>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>                     
+                        </div>
+                    </fieldset><br>
+                    <input type="submit" value="Submit" class="button">
+                </form>
+            </section>
+
+            <!-- section for contact info. -->
+            <section id='contact-info-box'> 
+                <h3>If you should have any further questions.</h3>
+                <h4>Please contact us at:</h4> 
+                <address>
+                    <table id="contactTable">
+                        <tr><th>Phone: </th><td>(020) 1200 3440</td></tr>
+                        <tr><th>Email: </th><td>info@cybersplash.fun</td></tr>
+                        <tr><th>Post us on any social media</th><td>
+                                    <a href="#" class="fa fa-facebook"></a>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                    <a href="#" class="fa fa-instagram"></a>
+                                </td></tr>
+                    </table>
+                </address>
+                <p>We're looking forward to hearing from you.</p>  
+            </section>
+        </main>
+        
+        <footer id="footercontainer">
+            <div id="footercontentcontainer">
+                <!-- Three link containers to make three columns of links -->
+                <div class="footerlinkscontainer">
+                    <!-- links to other pages on site -->
+                    <h3>Site links</h3>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="parkattractions.html" class="footer-link">Attractions</a>
+                    <a href="parkinfo.html" class="footer-link">Information</a>
+                </div>       
+                <div class="footerlinkscontainer">
+                    <!-- various generic footer links -->
+                    <h3>Information</h3>
+                    <a href="#" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Maps</a>
+                    <a href="#" class="footer-link">Opening Times</a>
+                    <a href="#" class="footer-link">Packages</a>
+                </div>
+                <div class="footerlinkscontainer">
+                    <!-- Language links -->
+                    <h3>Language</h3>
+                    <a href="#" class="footer-link">English</a>
+                    <a href="#" class="footer-link">中文</a>
+                    <a href="#" class="footer-link">Español</a>
+                    <a href="#" class="footer-link">Bahasa Indonesia</a>
+                    <a href="#" class="footer-link">Afrikaans</a>
+                </div>                    
+            </div>
+            <!-- legal & social media links placed in a container for layout purposes -->
+            <div id="socialmedialinkscontainer">                    
+                <a href="#" class="legallink">Privacy Policy</a>
+                <a href="#" class="legallink">Terms and Conditions</a>
+                <a href="#" class="fa fa-facebook socialmedialink"></a>
+                <a href="#" class="fa fa-twitter socialmedialink"></a>
+                <a href="#" class="fa fa-google socialmedialink"></a>
+                <a href="#" class="fa fa-linkedin socialmedialink"></a>
+                <a href="#" class="fa fa-youtube socialmedialink"></a>
+                <a href="#" class="fa fa-instagram socialmedialink"></a>
+            </div> 
+            <!-- address details at bottom of page -->
+            <address>
+                <p>Visit us at:</p> 
+                <p>Cybersplash, Cyberroad, Cyber County, C20 S77</p>
+            </address>
+        </footer>    
+    </body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Cybersplash</title>
+        <!-- meta objects added to improve accessability, veiwport added for responsiv design and charset set -->
+        <meta name="description" content="The website of Cybersplash, a cyberpunk themed waterpark!">
+        <meta name="author" content="Wai Lee, Janko Bauer, Johannes Van Rhyn, Tassha Pradigdo, Chirley Campos Rios">
+        <meta name="keywords" content="waterpark, cyberpunk, waterslides, watercoaster, wavepool, slides, raft, tube, activity, pool, relax, vacation, splash">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <meta charset="UTF-8">
+        <!-- Add external stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <!-- Favicon added -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <!-- link fontawesome to add social media icons -->
+        <script src="https://kit.fontawesome.com/8981bb8382.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header id="banner-container">
+            <!-- park logo -->
+            <div id="logobox">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/CyberSplashLogo200x100.webp" alt="Logo for Cybersplash" id="logo">
+                    </a>
+                </h1>
+            </div>
+            <!-- navbar with menu items that link to the other pages on the site-->
+            <nav id="menuitems">
+                <a href="index.html" class="menuitem">Home</a>
+                <a href="parkattractions.html" class="menuitem">Attractions</a>
+                <a href="parkinfo.html" class="menuitem">Information</a>
+                <!-- Searchbox -->
+                <form>
+                    <input id="searchbox" type="text" placeholder="Search...">
+                </form>
+            </nav>    
+        </header>
+
+<!--JJ WORK Start//////////////////////////////////////////////////////////////////-->
+    <main>
+    <!-- Top Video -->
+        <figure class="topvidcontainer">
+            <video id="topvid" autoplay loop muted>
+                <source src="videos/index-thin.mp4">
+                Your browser does not support this video
+                <p>Man sliding through tubes and landing in a pool</p>
+            </video>
+        </figure>
+
+        <!--Tickets and Times Start //////////////////////////////////////////////-->
+        <section id="times">
+            <h3 class="centre">Opperational hours</h3>
+            <a href="parkinfo.html#timeTable" class="time"><p>Weekdays</p></a>
+            <a href="parkinfo.html#timeTable" class="time"><p>Weekends</p></a>
+
+            <a class="button" href="parkinfo.html#ticket-booking">Buy Tickets</a>
+        </section>
+        <hr>
+        <!--Tickets and Times End //////////////////////////////////////////////-->
+
+        <!--Attractions section Start ///////////////////////////////////////// -->
+        <section id="attractions">
+            <h2 class="centre">Attractions</h2>
+            <div class="attImgBox">
+                <div class="attContainer">
+                    <a href="parkattractions.html#oSplash">
+                        <p>Orbital Splash</p>
+                        <img src="images/orbitalsplash.webp" alt="Orbital Splash - Twisting tunnels ending in a shallow pool">
+                    </a>
+                </div>
+
+                <div class="attContainer">
+                    <a href="parkattractions.html#cSurf">
+                        <p>Crypto Surf</p>
+                        <img src="images/cryptosurf.webp" alt="Crypto Surf - Children in floaties swimming in a pool">
+                    </a>
+                </div>
+
+                <div class="attContainer">
+                    <a href="parkattractions.html#bTunnels">
+                        <p>Binary Tunnels</p>
+                        <img src="images/binarytunnels.webp" alt="Binary Tunnels - People sliding down a high slide on sleds">
+                    </a>
+                </div>
+
+                <div class="attContainer">
+                    <a href="parkattractions.html#wRunner">
+                        <p>The Wet Runner</p>
+                        <img src="images/binarytunnels.webp" alt="Wet Runner - People playing in waterworks ">
+                    </a>
+                </div>
+
+                <div class="attContainer">
+                    <a href="parkattractions.html#lEddies">
+                        <p>Lazy Eddies</p>
+                        <img src="images/lazyeddies.webp" alt="Lazy Eddies - Massive series of tunnels and slides viewed from above">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- Attractions section end //////////////////////////////////////////////////// -->
+
+        <!-- Dayplanner section Start//////////////////////////////////////////////////// -->
+        <section id="dayplan">
+            <video id="dayPlanVid" autoplay loop muted>
+                <source src="videos/CyberSplashView.mp4" type="video/mp4">
+                Your browser does not support this video
+                <p>Night time view of glowing scenery</p>
+            </video>
+                <div class="planContent">
+                    <h3>Explore Cybersplash</h3>
+                    <p>Cybersplash is a big place and it would be a shame if you where to... miss out</p>
+                    <a class="button" href="parkattractions.html">Plan your day!</a>
+                </div>
+        </section>
+        <hr>
+        <!-- Dayplanner section End//////////////////////////////////////////////////// -->
+        
+        <!-- bDay section Start////////////////////////////////////////////////////////-->
+        <section id="bDay">
+            <h2>Celebrate your birthday with us!</h2>
+
+            <div id="teenage" class="bDayContent">
+                <img src="images/bdaycontentpic1.webp" alt="Children enjoying themselves in a pool with a large jungle-gym">
+                <div class="words">
+                    <h3>Teenage fun</h3>
+                    <p>words words words words words words words words words words words words words words words words words words words words</p>
+                    <p>The last few words words words words words words</p>
+                </div>
+            </div>
+
+            <div id="adult" class="bDayContent">
+                <div class="words">
+                    <h3>Adult Kiddo's</h3>
+                    <p>words words words words words words words words words words words words words words words words words words words words</p>
+                    <p>The last few words words words words words words</p>
+                </div>
+                <img src="images/bdaycontentpic2.webp" alt="large waterslides and entertwining tubes leading into pool">
+            </div>
+
+            <div id="old" class="bDayContent">
+                <img src="images/bdaycontentpic3.webp" alt="People in boat splashing into a pool">
+                <div class="words">
+                    <h3>Fun never Ages</h3>
+                    <p>words words words words words words words words words words words words words words words words words words words words</p>
+                    <p>The last few words words words words words words</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- bDay section End//////////////////////////////////////////////////// -->
+    </main>
+<!-- JJ WORK End//////////////////////////////////////////////////////////////////-->
+
+
+        <footer id="footercontainer">
+            <div id="footercontentcontainer">
+                <!-- Three link containers to make three columns of links -->
+                <div class="footerlinkscontainer">
+                    <!-- links to other pages on site -->
+                    <h3>Site links</h3>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="parkattractions.html" class="footer-link">Attractions</a>
+                    <a href="parkinfo.html" class="footer-link">Information</a>
+                </div>       
+                <div class="footerlinkscontainer">
+                    <!-- various generic footer links -->
+                    <h3>Information</h3>
+                    <a href="#" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Maps</a>
+                    <a href="#" class="footer-link">Opening Times</a>
+                    <a href="#" class="footer-link">Packages</a>
+                </div>
+                <div class="footerlinkscontainer">
+                    <!-- Language links -->
+                    <h3>Language</h3>
+                    <a href="#" class="footer-link">English</a>
+                    <a href="#" class="footer-link">中文</a>
+                    <a href="#" class="footer-link">Español</a>
+                    <a href="#" class="footer-link">Bahasa Indonesia</a>
+                    <a href="#" class="footer-link">Afrikaans</a>
+                </div>                    
+            </div>
+            <!-- legal & social media links placed in a container for layout purposes -->
+            <div id="socialmedialinkscontainer">                    
+                <a href="#" class="legallink">Privacy Policy</a>
+                <a href="#" class="legallink">Terms and Conditions</a>
+                <a href="#" class="fa fa-facebook socialmedialink"></a>
+                <a href="#" class="fa fa-twitter socialmedialink"></a>
+                <a href="#" class="fa fa-google socialmedialink"></a>
+                <a href="#" class="fa fa-linkedin socialmedialink"></a>
+                <a href="#" class="fa fa-youtube socialmedialink"></a>
+                <a href="#" class="fa fa-instagram socialmedialink"></a>
+            </div> 
+            <!-- address details at bottom of page -->
+            <address>
+                <p>Visit us at:</p> 
+                <p>Cybersplash, Cyberroad, Cyber County, C20 S77</p>
+            </address>
+        </footer>    
+    </body>
+</html>
